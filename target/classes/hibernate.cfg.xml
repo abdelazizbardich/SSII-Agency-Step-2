@@ -11,7 +11,7 @@
 <!--        <property name="hibernate.connection.username">root</property>-->
 <!--        <property name="hibernate.connection.password"></property>-->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.enable_lazy_load_no_trans">true</property>
         <mapping class="com.ssiiagency.entities.User"/>
         <mapping class="com.ssiiagency.entities.Employe"/>

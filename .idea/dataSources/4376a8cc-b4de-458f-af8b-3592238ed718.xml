@@ -1074,200 +1074,203 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="274" parent="1" name="civic_prob_map">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="275" parent="1" name="information_schema">
+    <schema id="275" parent="1" name="gestion_employe">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="276" parent="1" name="information_schema">
       <CollationName>utf8_general_ci</CollationName>
     </schema>
-    <schema id="276" parent="1" name="mysql">
+    <schema id="277" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="277" parent="1" name="performance_schema">
+    <schema id="278" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="278" parent="1" name="ssiiagency">
+    <schema id="279" parent="1" name="ssiiagency">
       <Current>1</Current>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="279" parent="1" name="sys">
+    <schema id="280" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="280" parent="1" name="debian-sys-maint">
+    <user id="281" parent="1" name="debian-sys-maint">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="281" parent="1" name="mysql.infoschema">
+    <user id="282" parent="1" name="mysql.infoschema">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="282" parent="1" name="mysql.session">
+    <user id="283" parent="1" name="mysql.session">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="283" parent="1" name="mysql.sys">
+    <user id="284" parent="1" name="mysql.sys">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="284" parent="1" name="root">
+    <user id="285" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>auth_socket</Plugin>
     </user>
-    <user id="285" parent="1" name="username">
+    <user id="286" parent="1" name="username">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="286" parent="278" name="Admin">
+    <table id="287" parent="279" name="Admin">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="287" parent="278" name="address">
+    <table id="288" parent="279" name="address">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="288" parent="278" name="employe">
+    <table id="289" parent="279" name="employe">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="289" parent="278" name="hibernate_sequence">
+    <table id="290" parent="279" name="hibernate_sequence">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="290" parent="278" name="role">
+    <table id="291" parent="279" name="role">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="291" parent="278" name="user">
+    <table id="292" parent="279" name="user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="292" parent="286" name="id_user">
+    <column id="293" parent="287" name="id_user">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <foreign-key id="293" parent="286" name="id_user_adm">
+    <foreign-key id="294" parent="287" name="id_user_adm">
       <ColNames>id_user</ColNames>
       <RefColNames>id_user</RefColNames>
       <RefTableName>user</RefTableName>
     </foreign-key>
-    <key id="294" parent="286" name="PRIMARY">
+    <key id="295" parent="287" name="PRIMARY">
       <ColNames>id_user</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="295" parent="287" name="id_address">
+    <column id="296" parent="288" name="id_address">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="296" parent="287" name="city">
+    <column id="297" parent="288" name="city">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="297" parent="287" name="country">
+    <column id="298" parent="288" name="country">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="298" parent="287" name="prostal_code">
+    <column id="299" parent="288" name="prostal_code">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="299" parent="287" name="street">
+    <column id="300" parent="288" name="street">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <key id="300" parent="287" name="PRIMARY">
+    <key id="301" parent="288" name="PRIMARY">
       <ColNames>id_address</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="301" parent="288" name="entry_date">
+    <column id="302" parent="289" name="entry_date">
       <DataType>date|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="302" parent="288" name="gone_out">
+    <column id="303" parent="289" name="gone_out">
       <DataType>bit(1)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="303" parent="288" name="id_user">
+    <column id="304" parent="289" name="id_user">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="304" parent="288" name="id_user_emp">
+    <foreign-key id="305" parent="289" name="id_user_emp">
       <ColNames>id_user</ColNames>
       <RefColNames>id_user</RefColNames>
       <RefTableName>user</RefTableName>
     </foreign-key>
-    <key id="305" parent="288" name="PRIMARY">
+    <key id="306" parent="289" name="PRIMARY">
       <ColNames>id_user</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="306" parent="289" name="next_val">
+    <column id="307" parent="290" name="next_val">
       <DataType>bigint|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="307" parent="290" name="id_role">
+    <column id="308" parent="291" name="id_role">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="308" parent="290" name="name">
+    <column id="309" parent="291" name="name">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <key id="309" parent="290" name="PRIMARY">
+    <key id="310" parent="291" name="PRIMARY">
       <ColNames>id_role</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="310" parent="291" name="id_user">
+    <column id="311" parent="292" name="id_user">
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="311" parent="291" name="email">
+    <column id="312" parent="292" name="email">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="312" parent="291" name="first_name">
+    <column id="313" parent="292" name="first_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="313" parent="291" name="last_name">
+    <column id="314" parent="292" name="last_name">
       <DataType>varchar(255)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="314" parent="291" name="password">
+    <column id="315" parent="292" name="password">
       <DataType>varchar(255)|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="315" parent="291" name="id_address">
+    <column id="316" parent="292" name="id_address">
       <DataType>bigint|0s</DataType>
       <Position>6</Position>
     </column>
-    <column id="316" parent="291" name="id_role">
+    <column id="317" parent="292" name="id_role">
       <DataType>bigint|0s</DataType>
       <Position>7</Position>
     </column>
-    <foreign-key id="317" parent="291" name="FKmowmggc5uiyuix3pmqay8nf0h">
+    <foreign-key id="318" parent="292" name="FKmowmggc5uiyuix3pmqay8nf0h">
       <ColNames>id_address</ColNames>
       <RefColNames>id_address</RefColNames>
       <RefTableName>address</RefTableName>
     </foreign-key>
-    <foreign-key id="318" parent="291" name="FK6njoh3pti5jnlkowken3r8ttn">
+    <foreign-key id="319" parent="292" name="FK6njoh3pti5jnlkowken3r8ttn">
       <ColNames>id_role</ColNames>
       <RefColNames>id_role</RefColNames>
       <RefTableName>role</RefTableName>
     </foreign-key>
-    <index id="319" parent="291" name="FKmowmggc5uiyuix3pmqay8nf0h">
+    <index id="320" parent="292" name="FKmowmggc5uiyuix3pmqay8nf0h">
       <ColNames>id_address</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="320" parent="291" name="FK6njoh3pti5jnlkowken3r8ttn">
+    <index id="321" parent="292" name="FK6njoh3pti5jnlkowken3r8ttn">
       <ColNames>id_role</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="321" parent="291" name="PRIMARY">
+    <key id="322" parent="292" name="PRIMARY">
       <ColNames>id_user</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>

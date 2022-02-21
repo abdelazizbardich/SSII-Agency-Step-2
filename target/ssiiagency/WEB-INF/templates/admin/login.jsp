@@ -18,6 +18,9 @@
         <div class="col-md-6 text-center text-white p-3 border border-white rounded-3">
             <h1 class="h1">Admin login</h1>
             <p class="small text-white">Please login to get access to your admin area</p>
+            <c:if test="${empty err}">
+                <div class="alert alert-danger text-center">${err}</div>
+            </c:if>
             <form action="${pageContext.request.contextPath}/admin/login" method="post">
                 <div class="form-group text-start mb-3">
                     <label class="form-label" for="email">Email:</label>

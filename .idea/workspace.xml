@@ -10,48 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920dc08-c887-43cc-a64f-655116241ee9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSII Agency - Step 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AddressDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/DAOInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/EmployeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/RoleDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/DispatcherServletInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Employe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/hibernate/HSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/EmployeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/ServiceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/all.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4376a8cc-b4de-458f-af8b-3592238ed718.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4376a8cc-b4de-458f-af8b-3592238ed718.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/entities/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/entities/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/entities/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/entities/Address.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +40,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Jsp File" />
         <option value="CSS File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -79,6 +57,22 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -107,8 +101,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ssiiagency" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -122,6 +118,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\username\github-repos\SSII-Agency-Step-2\src" />
+      <recent name="\\wsl$\Ubuntu\home\username\github-repos\SSII-Agency-Step-2\src\main" />
       <recent name="\\wsl$\Ubuntu\home\username\github-repos\SSII-Agency-Step-2\src\main\webapp\resources\css" />
       <recent name="\\wsl$\Ubuntu\home\username\github-repos\SSII-Agency-Step-2\src\main\webapp" />
       <recent name="\\wsl$\Ubuntu\home\username\github-repos\SSII-Agency-Step-2\src\main\webapp\WEB-INF" />
@@ -138,6 +136,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdminServiceImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSII Agency - Step 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssiiagency.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssiiagency.services" />
+      <option name="MAIN_CLASS_NAME" value="com.ssiiagency.services.AdminServiceImplTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-17" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -149,6 +163,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="1f377ed9-1853-441b-93eb-a2881cebc010" />
+        <option name="HTTP_PORT" value="8090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -226,11 +241,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.58" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.58" />
+      <item itemvalue="JUnit.AdminServiceImplTest.add" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminServiceImplTest.add" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -244,6 +261,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645088546647</updated>
       <workItem from="1645088552986" duration="24967000" />
+      <workItem from="1645191796155" duration="755000" />
+      <workItem from="1645432057558" duration="6735000" />
     </task>
     <servers />
   </component>

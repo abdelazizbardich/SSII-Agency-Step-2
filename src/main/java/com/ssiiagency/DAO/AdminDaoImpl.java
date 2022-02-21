@@ -12,10 +12,12 @@ public class AdminDaoImpl implements DAOInt<Admin> {
 
     private Admin admin;
 
+
     @Autowired
-    public AdminDaoImpl(Admin admin) {
+    public void setAdmin(Admin admin) {
         this.admin = admin;
     }
+
 
     @Override
     public Admin add(Admin admin) {
@@ -42,12 +44,12 @@ public class AdminDaoImpl implements DAOInt<Admin> {
         List results = session.createQuery("SELECT password FROM user where email = :email")
                 .setParameter("email", email)
                 .setMaxResults(1).list();
+        session.close();
+        System.out.println(results);
         if(results.size()==0){
             return null;
         }
-
         admin.setPassword(results.get(0).toString());
-        session.close();
         return admin;
     }
 

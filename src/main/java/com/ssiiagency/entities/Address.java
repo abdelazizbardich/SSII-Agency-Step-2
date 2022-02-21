@@ -4,10 +4,11 @@ package com.ssiiagency.entities;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity(name = "address")
 @Component
-public class Address {
+public class Address{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id_address", nullable = false)
