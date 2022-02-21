@@ -41,16 +41,13 @@ public class AdminDaoImpl implements DAOInt<Admin> {
     public Admin findByEmail(String email){
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
-        List results = session.createQuery("SELECT password FROM user where email = :email")
+        List results = session.createQuery("FROM user e where email = :email")
                 .setParameter("email", email)
                 .setMaxResults(1).list();
         session.close();
-        System.out.println(results);
-        if(results.size()==0){
-            return null;
-        }
-        admin.setPassword(results.get(0).toString());
-        return admin;
+        if(results.size()>0)
+        return (Admin) results.get(0);
+        return null;
     }
 
     @Override
