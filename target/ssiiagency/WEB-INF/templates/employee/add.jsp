@@ -27,13 +27,17 @@
             </c:if>
             <form action="${pageContext.request.contextPath}/employee/add" method="post">
                 <div class="row m-0">
-                    <div class="form-group col-md-6 text-start mb-3">
+                    <div class="form-group col-md-4 text-start mb-3">
                         <label class="form-label" for="first-name">First name:</label>
                         <input type="text" id="first-name" name="first_name" class="form-control" placeholder="First name...">
                     </div>
-                    <div class="form-group col-md-6 text-start mb-3">
+                    <div class="form-group col-md-4 text-start mb-3">
                         <label class="form-label" for="last-name">Last name:</label>
                         <input type="text" id="last-name" name="last_name" class="form-control" placeholder="Last name...">
+                    </div>
+                    <div class="form-group col-md-4 text-start mb-3">
+                        <label class="form-label" for="entry-date">entryDate:</label>
+                        <input type="date" id="entry-date" name="entry_date" class="form-control" placeholder="Entry date...">
                     </div>
                 </div>
                 <div class="row m-0 border border-white rounded-3 my-3">
@@ -54,7 +58,9 @@
                                         <label class="form-label" for="address">Select an Address:</label>
                                         <select name="address" id="address" class="form-control" placeholder="Email address...">
                                             <option selected disabled value="">Select Address</option>
-                                            <option value="0">ddsqd - sqdsqd - qsdsqd - qsdqsd</option>
+                                            <c:forEach var="address" items="${addresses}">
+                                                <option value="${address.getIdAddress()}">${address.getStreet()} - ${address.getCity()} - ${address.getCountry()} - ${address.getPostalCode()}</option>
+                                            </c:forEach>
                                         </select>
                                     </div>
                                 </div>

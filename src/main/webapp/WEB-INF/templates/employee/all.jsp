@@ -26,21 +26,40 @@
                         <th>First name</th>
                         <th>Last name</th>
                         <th>Email</th>
+                        <th>Entry date</th>
                         <th>Address</th>
                         <th>Status</th>
                         <th></th>
                     </thead>
                     <tbody>
-                    <c:forEach var="var" items="${employees}">
+                    <c:forEach var="employee" items="${employees}">
                         <tr>
-                            <td>admin fname</td>
-                            <td>admin lname</td>
-                            <td>admin email</td>
-                            <td>admin address</td>
-                            <td>Admin status</td>
+                            <td>${employee.getFirstName()}</td>
+                            <td>${employee.getLastName()}</td>
+                            <td>${employee.getEmail()}</td>
+                            <td>${employee.getEntryDate()}</td>
+                            <td>${employee.getAddress().getPostalCode()} - ${employee.getAddress().getStreet()} - ${employee.getAddress().getCity()} - ${employee.getAddress().getCountry()}</td>
                             <td>
-                                <a class="btn btn-primary btn-sm m-1" href="${pageContext.request.contextPath}/employee/update/1">update</a>
-                                <a class="btn btn-danger btn-sm m-1" href="${pageContext.request.contextPath}/employee/delete/1">Delete</a>
+                                <c:choose>
+                                    <c:when test="${employee.isGoneOut() == true}">
+                                        <span class="badge bg-success p-1 text-white">Working</span>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <span class="badge bg-danger p-1 text-white">Gone out</span>
+                                    </c:otherwise>
+                                </c:choose>
+                            </td>
+                            <td>
+                                <c:choose>
+                                    <c:when test="${employee.isGoneOut() == true}">
+                                        <a class="btn btn-dark btn-sm m-1" href="${pageContext.request.contextPath}/employee/gone-out/${employee.getIdUser()}">set Gone out</a>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <a class="btn btn-success btn-sm m-1" href="${pageContext.request.contextPath}/employee/working/${employee.getIdUser()}">Set Wokring</a>
+                                    </c:otherwise>
+                                </c:choose>
+                                <a class="btn btn-primary btn-sm m-1" href="${pageContext.request.contextPath}/employee/update/${employee.getIdUser()}">update</a>
+                                <a class="btn btn-danger btn-sm m-1" href="${pageContext.request.contextPath}/employee/delete/${employee.getIdUser()}">Delete</a>
                             </td>
                         </tr>
                     </c:forEach>

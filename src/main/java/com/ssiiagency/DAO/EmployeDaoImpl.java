@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class EmployeDaoImpl implements DAOInt<Employe> {
 
-    public boolean setAsGoneOut(long id) {
+    public boolean setAsGone(long id) {
         Session session = HSessionFactory.getInstance().getSession().openSession();
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
@@ -66,6 +66,19 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
         session.delete(employe);
+        session.getTransaction().commit();
+        session.close();
+        return true;
+    }
+
+
+
+    public  boolean setAsWokring(long id){
+        Session session = HSessionFactory.getInstance().getSession().openSession();
+        session.beginTransaction();
+        Employe employe = session.find(Employe.class,id);
+        employe.setGoneOut(false);
+        session.merge(employe);
         session.getTransaction().commit();
         session.close();
         return true;

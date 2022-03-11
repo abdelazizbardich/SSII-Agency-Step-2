@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SSII Agency - Step 2:war" />
+      <artifact name="SSII-Agency-Step-2:war" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,26 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920dc08-c887-43cc-a64f-655116241ee9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SSII-Agency-Step-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4376a8cc-b4de-458f-af8b-3592238ed718.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4376a8cc-b4de-458f-af8b-3592238ed718.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/EmployeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/EmployeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/EmployeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/EmployeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/ServiceInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/ServiceInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/entities/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/entities/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/EmployeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/EmployeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/ServiceInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/ServiceInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssiiagency.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/entities/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/entities/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/EmployeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/EmployeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/ServiceInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/ServiceInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/all.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +118,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Win-Digital-Center--WDC----Step-2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -128,36 +144,13 @@
       <recent name="com.ssiiagency.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.58">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SSII Agency - Step 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminServiceImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSII Agency - Step 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssiiagency.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ssiiagency.services" />
-      <option name="MAIN_CLASS_NAME" value="com.ssiiagency.services.AdminServiceImplTest" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-17" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SSII Agency - Step 2:war">
+        <artifact name="SSII-Agency-Step-2:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/SSII_Agency___Step_2_war" />
+            <option name="CONTEXT_PATH" value="/SSII_Agency_Step_2_war" />
           </settings>
         </artifact>
       </deployment>
@@ -237,20 +230,10 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SSII Agency - Step 2:war" />
+          <artifact name="SSII-Agency-Step-2:war" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.58" />
-      <item itemvalue="JUnit.AdminServiceImplTest.add" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.AdminServiceImplTest.add" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -263,6 +246,12 @@
       <workItem from="1645088552986" duration="24967000" />
       <workItem from="1645191796155" duration="755000" />
       <workItem from="1645432057558" duration="7213000" />
+      <workItem from="1645627071278" duration="5583000" />
+      <workItem from="1645691469169" duration="4110000" />
+      <workItem from="1645711081700" duration="1205000" />
+      <workItem from="1645777083144" duration="5870000" />
+      <workItem from="1645800389410" duration="535000" />
+      <workItem from="1646906687324" duration="613000" />
     </task>
     <servers />
   </component>

@@ -23,7 +23,7 @@ public class AddressServiceImpl implements ServiceInt<Address> {
     }
 
     @Override
-    public Address Find(long id) {
+    public Address find(long id) {
         return  addressDao.find(id);
     }
 

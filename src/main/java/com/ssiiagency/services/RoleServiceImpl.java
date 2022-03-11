@@ -23,7 +23,7 @@ public class RoleServiceImpl implements ServiceInt<Role> {
     }
 
     @Override
-    public Role Find(long id) {
+    public Role find(long id) {
         return roleDao.find(id);
     }
 

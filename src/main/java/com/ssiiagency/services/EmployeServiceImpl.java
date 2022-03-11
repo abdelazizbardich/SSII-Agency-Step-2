@@ -23,7 +23,7 @@ public class EmployeServiceImpl implements ServiceInt<Employe> {
     }
 
     @Override
-    public Employe Find(long id) {
+    public Employe find(long id) {
         return employeDao.find(id);
     }
 
@@ -40,5 +40,13 @@ public class EmployeServiceImpl implements ServiceInt<Employe> {
     @Override
     public boolean delete(long id) {
         return employeDao.delete(id);
+    }
+
+    public boolean setAsWokring(long id){
+        return employeDao.setAsWokring(id);
+    }
+
+    public  boolean setAsGone(long id){
+        return  employeDao.setAsGone(id);
     }
 }
