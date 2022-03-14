@@ -41,7 +41,7 @@
                             <td>${employee.getAddress().getPostalCode()} - ${employee.getAddress().getStreet()} - ${employee.getAddress().getCity()} - ${employee.getAddress().getCountry()}</td>
                             <td>
                                 <c:choose>
-                                    <c:when test="${employee.isGoneOut() == true}">
+                                    <c:when test="${employee.isGoneOut() == false}">
                                         <span class="badge bg-success p-1 text-white">Working</span>
                                     </c:when>
                                     <c:otherwise>
@@ -51,7 +51,7 @@
                             </td>
                             <td>
                                 <c:choose>
-                                    <c:when test="${employee.isGoneOut() == true}">
+                                    <c:when test="${employee.isGoneOut() == false}">
                                         <a class="btn btn-dark btn-sm m-1" href="${pageContext.request.contextPath}/employee/gone-out/${employee.getIdUser()}">set Gone out</a>
                                     </c:when>
                                     <c:otherwise>

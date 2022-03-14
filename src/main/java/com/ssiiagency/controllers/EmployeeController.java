@@ -4,6 +4,7 @@ import com.ssiiagency.DAO.EmployeDaoImpl;
 import com.ssiiagency.entities.Address;
 import com.ssiiagency.entities.Employe;
 import com.ssiiagency.entities.Role;
+import com.ssiiagency.services.AddressServiceImpl;
 import com.ssiiagency.services.EmployeServiceImpl;
 import com.ssiiagency.services.ServiceInt;
 import org.hibernate.HibernateException;
@@ -19,6 +20,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.Date;
+import java.util.List;
 
 @Controller
 @RequestMapping("/employee")
@@ -137,7 +139,10 @@ public class EmployeeController {
         long employeId = Long.parseLong(id);
         try{
             employe = (Employe) employeService.find(employeId);
+            List<Address> addresses =  addressService.getAll();
+            System.out.println(employe);
             model.addAttribute("employee",employe);
+            model.addAttribute("addresses",addresses);
         }catch (HibernateException e){
             System.out.println("Can't get employee!");
         }
@@ -158,6 +163,7 @@ public class EmployeeController {
         String entryDate = request.getParameter("entry_date");
         if(firstName == null || lastName == null || email == null || password == null || entryDate == null || ( addressId == null && (country == null &&  city == null && street == null && postalCode == null) )){
             model.addAttribute("err","please fill all required fields!");
+            System.out.println("data not good");
             return new ModelAndView("employee/add");
         }
         if(addressId == null){
