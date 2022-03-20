@@ -2,16 +2,29 @@ package com.ssiiagency.DAO;
 
 import com.ssiiagency.entities.Employe;
 import com.ssiiagency.hibernate.HSessionFactory;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Repository
+@Transactional
 public class EmployeDaoImpl implements DAOInt<Employe> {
 
+    @Autowired
+    private SessionFactory sessionFactory;
+
     public boolean setAsGone(long id) {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
         employe.setGoneOut(true);
@@ -24,7 +37,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
     @Override
     public Employe add(Employe employe) {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         session.save(employe);
         session.getTransaction().commit();
@@ -34,7 +52,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
     @Override
     public Employe find(long id) {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
         session.close();
@@ -43,7 +66,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
     @Override
     public  List<Employe> getAll() {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         List<Employe> employes = session.createCriteria(Employe.class).list();
         return employes;
@@ -51,7 +79,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
     @Override
     public Employe update(Employe employe) {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         session.load(Employe.class,employe.getIdUser());
         session.merge(employe);
@@ -62,7 +95,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
     @Override
     public boolean delete(long id) {
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
         session.delete(employe);
@@ -74,7 +112,12 @@ public class EmployeDaoImpl implements DAOInt<Employe> {
 
 
     public  boolean setAsWokring(long id){
-        Session session = HSessionFactory.getInstance().getSession().openSession();
+        Session session;
+        try {
+            session = sessionFactory.getCurrentSession();
+        }catch (HibernateException e){
+            session = sessionFactory.openSession();
+        }
         session.beginTransaction();
         Employe employe = session.find(Employe.class,id);
         employe.setGoneOut(false);

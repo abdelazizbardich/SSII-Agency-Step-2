@@ -10,18 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0920dc08-c887-43cc-a64f-655116241ee9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SSII-Agency-Step-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSII-Agency-Step-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AddressDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/EmployeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/EmployeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/DispatcherServletInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/config/DispatcherServletInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AddressDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/RoleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/RoleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/config/DispatcherServletInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/config/DispatcherServletInit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssiiagency.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/templates/employee/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AddressDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/EmployeDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/RoleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/RoleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/config/DispatcherServletInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/config/DispatcherServletInit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +50,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
         <option value="CSS File" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
