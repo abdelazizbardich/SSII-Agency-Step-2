@@ -44,6 +44,7 @@ public class AddressDaoImpl implements DAOInt<Address> {
         }
         session.beginTransaction();
         Address address = session.get(Address.class,id);
+        session.getTransaction().commit();
         session.close();
         return address;
 

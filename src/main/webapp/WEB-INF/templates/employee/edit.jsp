@@ -26,7 +26,7 @@
                 <div class="alert alert-danger text-center">${err}</div>
             </c:if>
             <form action="${pageContext.request.contextPath}/employee/update" method="post">
-                <input hidden name="id" value="${employee.getIdUser()}"/>
+                <input name="id" hidden value="${employee.getIdUser()}"/>
                 <div class="row m-0">
                     <div class="form-group col-md-4 text-start mb-3">
                         <label class="form-label" for="first-name">First name:</label>

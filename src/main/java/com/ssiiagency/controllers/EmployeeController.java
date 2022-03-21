@@ -140,11 +140,11 @@ public class EmployeeController {
         try{
             employe = (Employe) employeService.find(employeId);
             List<Address> addresses =  addressService.getAll();
-            System.out.println(employe);
+            System.out.println("Employee: "+employe);
             model.addAttribute("employee",employe);
             model.addAttribute("addresses",addresses);
         }catch (HibernateException e){
-            System.out.println("Can't get employee!");
+            System.out.println("Can't get employee!"+e.getMessage());
         }
         return new ModelAndView("employee/edit");
     }
