@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/admin")
@@ -18,6 +19,7 @@ public class AdminController {
     @Autowired
     public AdminController(AdminServiceImpl adminService) {
         this.adminService = adminService;
+
     }
 
 
@@ -29,7 +31,6 @@ public class AdminController {
 
     @PostMapping("/login")
     public ModelAndView login(HttpServletRequest request,Model model){
-        System.out.println("login1");
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         if(email == null || password == null){
@@ -37,9 +38,11 @@ public class AdminController {
             model.addAttribute("err","Empty Email or password!");
             return new ModelAndView("admin/login");
         }
-        System.out.println("login2");
         if(adminService.login(email,password)){
             System.out.println("ok");
+            HttpSession session = request.getSession();
+            session.setAttribute("user", adminService.findByEmail(email));
+            System.out.println("session User: "+session.getAttribute("user"));
             return new ModelAndView("redirect:/employee/");
         }else {
             System.out.println("no");

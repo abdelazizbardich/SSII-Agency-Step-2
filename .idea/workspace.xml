@@ -11,14 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0920dc08-c887-43cc-a64f-655116241ee9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/DAO/AddressDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssiiagency/services/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/employee/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/DAO/AddressDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssiiagency/services/AdminServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssiiagency.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/DAO/AddressDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssiiagency/WEB-INF/classes/com/ssiiagency/services/AdminServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

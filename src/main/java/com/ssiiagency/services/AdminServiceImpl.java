@@ -51,6 +51,10 @@ public class AdminServiceImpl implements ServiceInt<Admin> {
         return false;
     }
 
+    public Admin findByEmail(String email){
+        return adminDao.findByEmail(email);
+    }
+
     public boolean changePassword(String olPassword, String newPassword) {
         return false;
     }
